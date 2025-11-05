@@ -6,8 +6,8 @@ export default function Index() {
   return (
     <>
       {/* <HomeScreen /> */}
-      {/* <DetailScreen /> */}
-      <Tugas2 />
+      <DetailScreen />
+      {/* <Tugas2 /> */}
     </>
   );
 }
