@@ -39,6 +39,9 @@ export default function DetailScreen() {
       </ScrollView>
       <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
         <TouchableOpacity
+          onPress={() => {
+           router.push(`/update/${note?.id}`);
+          }}
           style={{
             backgroundColor: "#FF5B13",
             margin: 16,

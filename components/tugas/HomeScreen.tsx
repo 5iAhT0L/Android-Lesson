@@ -62,7 +62,6 @@ const notes: Note[] = [
     description: "Melakukan pengujian aplikasi untuk memastikan kualitasnya.",
     date: "2024-06-04",
   },
-
 ];
 
 type Note = {
@@ -200,4 +199,3 @@ const styles = StyleSheet.create({
   emptyTitle: {},
   emptyDesc: {},
 });
-
